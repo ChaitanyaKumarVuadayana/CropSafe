@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.start-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.start-button:hover {
+    background-color: #0056b3;
+}
+
+#webcam-container {
+    text-align: center;
+}
+
+#label-container {
+    margin-top: 20px;
+}
+
+.label-item {
+    margin: 5px 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.label-name {
+    flex: 1;
+    text-align: left;
+}
+
+.probability-bar {
+    flex: 3;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #e0e0e0;
+    position: relative;
+}
+
+.probability-bar div {
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.probability-bar span {
+    position: absolute;
+    right: 10px;
+    color: #000;
+    font-weight: bold;
+}
